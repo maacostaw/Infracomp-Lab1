@@ -25,9 +25,9 @@ public class Interfaz_Impresoras {
 		    System.out.println("Se imprimiran numeros con un intervalo de espera de " + delay_time + " milisegundos");
 			Impresora_Pares		t1 = new Impresora_Pares(limite_superior, delay_time); 
 			Impresora_Impares	t2 = new Impresora_Impares(limite_superior, delay_time); 
-			t2.run();
-			t1.run();
 			
+			t1.run();
+			t2.run();
 		}		
 	}
 
